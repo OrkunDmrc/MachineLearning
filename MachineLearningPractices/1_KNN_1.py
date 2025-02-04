@@ -39,5 +39,3 @@ for k in range(1,21):
     knn.fit(X_train, y_train)
     y_pred = knn.predict(X_test)
     print(k, accuracy_score(y_test, y_pred))
-
-
